@@ -61,3 +61,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+
+.stand-img {
+    background-image: url(./assets/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
