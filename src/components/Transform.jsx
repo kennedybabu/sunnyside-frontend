@@ -11,7 +11,7 @@ const Transform = () => {
                     fast. Engage your clients through compelling visuals that do most of the 
                     marketing for you.
                 </p>
-                <a href="#" className='ml-8 lg:mx-0 uppercase text-header hover:underline decoration-[2px] decoration-yellow-400'>Learn more</a>
+                <a href="#" className=' lg:mx-0 uppercase text-header hover:underline decoration-[2px] decoration-yellow-400'>Learn more</a>
             </div>
             <div className='transform-img w-full h-[50vh] lg:h-[70vh] order-1'>
                     

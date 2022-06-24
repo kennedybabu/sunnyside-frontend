@@ -91,3 +91,35 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+.bottles {
+    background-image: url(./assets/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.orange {
+    background-image: url(./assets/image-gallery-orange.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.cone {
+    background-image: url(./assets/image-gallery-cone.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.cubes {
+    background-image: url(./assets/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

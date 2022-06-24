@@ -11,7 +11,7 @@ const Testimonials = () => {
         {/* container */}
         <h2 className='text-xl uppercase text-header text-center text-gray-500 tracking-[5px] lg:mt-[30px] md:mb-[50px] lg:mb-[100px]'>Client Testimonials</h2>
         <div className='w-full h-full grid md:flex lg:px-[200px] '>
-            <div className='flex flex-col items-center text-center text-[#5a636c]'>
+            <div className='pt-8 flex flex-col items-center text-center text-[#5a636c]'>
                 <div className='py-8'>
                     <img  className='rounded-[50%] h-[80px]' src={Emily} alt="Merketing Director Emily.R" />
                 </div>
@@ -22,7 +22,7 @@ const Testimonials = () => {
                 <small className='text-[#a7abae]'>Marketing Director</small>
             </div>
 
-            <div className='flex flex-col items-center text-center text-[#5a636c]'>
+            <div className='flex pt-8 flex-col items-center text-center text-[#5a636c]'>
                 <div className='py-8'>
                     <img  className='rounded-[50%] h-[80px]' src={Thomas} alt="Merketing Director Emily.R" />
                 </div>
@@ -35,7 +35,7 @@ const Testimonials = () => {
                 <small className='text-[#a7abae]'>Chief Operating Officer</small>
             </div>
 
-            <div className='flex flex-col items-center text-center text-[#5a636c]'>
+            <div className='flex pt-8 flex-col items-center text-center text-[#5a636c]'>
                 <div className='py-8'>
                     <img  className='rounded-[50%] h-[80px]' src={Jennie} alt="Merketing Director Emily.R" />
                 </div>

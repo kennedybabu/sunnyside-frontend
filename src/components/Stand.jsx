@@ -14,7 +14,7 @@ const Stand = () => {
                   Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll 
                   build and extend your brand in digital places.
                 </p>
-                <a href="#" className='ml-8 lg:mx-0 uppercase text-header hover:underline decoration-[2px] decoration-yellow-400'>Learn more</a>
+                <a href="#" className='lg:mx-0 uppercase text-header hover:underline decoration-[2px] decoration-yellow-400'>Learn more</a>
             </div>            
         </div>
     </div>
