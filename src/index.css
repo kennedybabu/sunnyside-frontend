@@ -53,3 +53,11 @@
     animation: pointer 2s linear infinite;
     transition: all ease-in-out;
 }
+
+
+.transform-img {
+    background-image: url(./assets/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

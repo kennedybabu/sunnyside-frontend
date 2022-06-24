@@ -6,9 +6,7 @@ import {FaTimes} from 'react-icons/fa'
 const Nav = () => {
     const [nav, setNav] = useState(true)
 
-    const handleNav = () => setNav(!nav)
-
-    console.log(nav)
+    const handleNav = () => setNav(!nav)   
 
   return (
     <div className='absolute w-full top-0 left-0'>
@@ -19,10 +17,10 @@ const Nav = () => {
             </div>
             <div className='hidden md:flex font-[Barlow] text-xl text-[white]'>
                 <ul className='flex'>
-                    <li className='px-4 md:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>About</li>
-                    <li className='px-4 md:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Services</li>
-                    <li className='px-4 md:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Projects</li>
-                    <li className='px-4 md:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Contact</li>
+                    <li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>About</li>
+                    <li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Services</li>
+                    <li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Projects</li>
+                    <li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Contact</li>
                 </ul>
             </div>
 
