@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Transform from "./components/Transform";
 import Stand from "./components/Stand";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Transform />
       <Stand />
       <Services />
+      <Testimonials />
     </div>
   );
 }
