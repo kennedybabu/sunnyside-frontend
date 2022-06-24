@@ -19,24 +19,24 @@ const Nav = () => {
             </div>
             <div className='hidden md:flex font-[Barlow] text-xl text-[white]'>
                 <ul className='flex'>
-                    <li className='px-4 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] duration-100'>About</li>
-                    <li className='px-4 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] duration-100'>Services</li>
-                    <li className='px-4 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] duration-100'>Projects</li>
-                    <li className='px-4 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] duration-100'>Contact</li>
+                    <li className='px-4 md:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>About</li>
+                    <li className='px-4 md:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Services</li>
+                    <li className='px-4 md:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Projects</li>
+                    <li className='px-4 md:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Contact</li>
                 </ul>
             </div>
 
             {/* menu toggler */}
-            <div className='md:hidden' onClick={handleNav}>
-                {nav ? <AiOutlineBars className='text-xl text-white'/> : <FaTimes />}
+            <div className='text-xl text-white md:hidden cursor-pointer' onClick={handleNav}>
+                {nav ? <AiOutlineBars /> : <FaTimes />}
             </div>
 
             {/* mobile menu */}
-            <ul className={nav ? 'hidden' :  'md:hidden absolute top-[80px] bg-white flex h-[30vh] flex-col w-[80%] left-1/2 transform -translate-x-1/2 items-center py-4'}>
-                <li className='px-4 py-2 cursor-pointer hover:bg-[orange] rounded-[30px]'>About</li>
-                <li className='px-4 py-2 cursor-pointer hover:bg-[orange] '>Services</li>
-                <li className='px-4 py-2 cursor-pointer hover:bg-[orange] '>Projects</li>
-                <li className='px-4 py-2 cursor-pointer hover:bg-[orange] '>Contact</li>
+            <ul id='mobile' className={nav ? 'hidden' :  'md:hidden absolute top-[50px] bg-white flex h-[40vh] flex-col w-[90%] left-1/2 transform -translate-x-1/2 items-center pt-[50px] justify-center'}>
+                <li className='px-4 py-2 cursor-pointer hover:bg-[yellow] rounded-[30px] hover:uppercase hover:text-[#154458]'>About</li>
+                <li className='px-4 py-2 cursor-pointer hover:bg-[yellow]  rounded-[30px] hover:uppercase hover:text-[#154458]'>Services</li>
+                <li className='px-4 py-2 cursor-pointer hover:bg-[yellow]  rounded-[30px] hover:uppercase hover:text-[#154458]'>Projects</li>
+                <li className='px-4 py-2 cursor-pointer hover:bg-[yellow]  rounded-[30px] hover:uppercase hover:text-[#154458]'>Contact</li>
             </ul>
         </div>       
     </div>

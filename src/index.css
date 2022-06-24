@@ -14,3 +14,42 @@
     background-repeat: no-repeat;
     background-image: url(./assets/image-header.jpg);
 }
+
+
+#mobile {
+    clip-path: polygon(93% 15%, 100% 0, 100% 19%, 100% 100%, 75% 100%, 0 100%, 1% 16%);
+}
+
+
+@keyframes pointer {
+    0% {
+        transform: scale(.7);
+    }
+
+    20% {
+        transform: scale(.8);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(.9);
+    }
+}
+
+
+.text-header {
+    font-family: 'Fraunces', sans-serif;
+}
+
+
+.pointer {
+    animation: pointer 2s linear infinite;
+    transition: all ease-in-out;
+}
