@@ -2,3 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Barlow:wght@600&family=Bellefair&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/image-header.jpg);
+}
