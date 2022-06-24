@@ -48,6 +48,10 @@
     font-family: 'Fraunces', sans-serif;
 }
 
+.Barlow {
+    font-family: 'Barlow', sans-serif;
+}
+
 
 .pointer {
     animation: pointer 2s linear infinite;
@@ -66,6 +70,23 @@
 
 .stand-img {
     background-image: url(./assets/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.graphic {
+    background-image: url(./assets/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.photography {
+    background-image: url(./assets/image-photography.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
