@@ -3,7 +3,7 @@ import React from 'react'
 const Services = () => {
   return (
     <div>
-         <div className='grid h-full w-full md:grid-cols-2'>
+         <div className='grid h-full w-full md:grid-cols-2' name='services'>
             <div className='md:h-[50vh] lg:h-[80vh] graphic w-full h-screen  text-cyan-700 flex flex-col justify-end pb-[60px] items-center text-center px-2'>
                 <h3 className='text-header text-3xl'>Graphic Design</h3>
                 <p className='py-2 Barlow max-w-[350px]'>Great design makes you memorable. We deliver

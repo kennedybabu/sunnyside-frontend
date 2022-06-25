@@ -2,7 +2,7 @@ import React from 'react'
 
 const Transform = () => {
   return (
-    <div className='w-full h-full lg:h-[70vh]'>
+    <div className='w-full h-full lg:h-[70vh]' name='about'>
         {/* container */}
         <div className='grid h-full w-full md:grid-cols-2'>
             <div className='lg:px-[50px] order-2 md:order-1 text-center md:text-start w-full h-[50vh] lg:h-[70vh] flex flex-col  justify-center px-2 text-gray-800'>

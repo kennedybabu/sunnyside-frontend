@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import Logo from '../assets/logo.svg'
 import {AiOutlineBars} from 'react-icons/ai'
 import {FaTimes} from 'react-icons/fa'
+import { Link } from "react-scroll";
+
 
 const Nav = () => {
     const [nav, setNav] = useState(true)
@@ -17,10 +19,10 @@ const Nav = () => {
             </div>
             <div className='hidden md:flex font-[Barlow] text-xl text-[white]'>
                 <ul className='flex'>
-                    <li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>About</li>
-                    <li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Services</li>
-                    <li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Projects</li>
-                    <li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Contact</li>
+                   <Link to='about' smooth={true}><li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>About</li></Link>
+                    <Link to='services' smooth={true}><li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Services</li></Link>
+                    <Link to='projects' smooth={true}><li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Projects</li></Link>
+                    <Link to='contact' smooth={true}><li className='px-4 lg:px-6 py-2 cursor-pointer hover:bg-[white] hover:text-[#154458] hover:rounded-[30px] hover:uppercase duration-100'>Contact</li></Link>
                 </ul>
             </div>
 

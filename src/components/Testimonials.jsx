@@ -7,7 +7,7 @@ import Jennie from './../assets/image-jennie.jpg'
 
 const Testimonials = () => {
   return (
-    <div className='w-full h-full py-8 lg:h-[80vh]'>
+    <div className='w-full h-full py-8 lg:h-[80vh]' name='projects'>
         {/* container */}
         <h2 className='text-xl uppercase text-header text-center text-gray-500 tracking-[5px] lg:mt-[30px] md:mb-[50px] lg:mb-[100px]'>Client Testimonials</h2>
         <div className='w-full h-full grid md:flex lg:px-[200px] '>

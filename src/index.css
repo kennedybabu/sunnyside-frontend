@@ -53,6 +53,11 @@
 }
 
 
+.barlow-bold {
+    font-weight: 600;
+}
+
+
 .pointer {
     animation: pointer 2s linear infinite;
     transition: all ease-in-out;
