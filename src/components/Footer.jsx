@@ -2,6 +2,7 @@ import React from 'react'
 import {FaFacebookSquare} from 'react-icons/fa'
 import {BsInstagram, BsTwitter, BsPinterest} from 'react-icons/bs'
 
+
 const Footer = () => {
   return (
     <div className='h-[50vh] w-full bg-[#97dac6] text-[#27775f]' name='contact'>
